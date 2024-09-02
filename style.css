@@ -1,0 +1,80 @@
+header {
+    font-size: 40px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div {
+    position: relative;
+}
+
+h1 {
+    font-size: 20px;
+    padding-left: 85px;
+}
+
+pre {
+    padding-left: 105px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #F7D4E9;
+}
+
+.column {
+    float: left;
+    padding: 10px 70px 10px 50px;
+  }
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.dividor {
+    border-top: 3px solid black;
+    width: 1250px;
+}
+
+p {
+    padding-left: 105px;
+}
+
+.exp {
+    font-size: 15px;
+    font-style: italic;
+    padding-left: 85px;
+    color: #EA6BB7;
+}
+
+.work {
+    font-size: 15px;
+    color: hwb(0 25% 75%);
+}
+
+ul {
+    padding-left: 150px;
+}
+
+h3 {
+    padding-left: 115px;
+    font-size: 15px;
+}
+
+h2 {
+    padding-left: 110px;
+    font-size: 15px;
+    font-style: italic;
+    color: #EA6BB7;
+}
+
+h4 {
+    padding-left: 115px;
+    color: #EA6BB7;
+}
+
+.hs {
+    font-style: italic;
+}
